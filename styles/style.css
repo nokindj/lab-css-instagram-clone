@@ -7,4 +7,73 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom, #517799 48%,  #2f5e86 25%, white 25%);
+  background-repeat: no-repeat;
 }
+
+.main-container {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 120px;
+  margin-top: 150px;
+  
+}
+
+.left-container {
+  position: relative;
+
+}
+
+.right-container {
+  margin-left: 70px;
+  
+}
+
+.text-div {
+  background-image: url(../images/frame.png);
+  width: 500px;
+  height: 400px;
+  background-repeat: no-repeat;
+ position: absolute;
+  margin-left: 2px;
+  margin-top: 10px;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+/*
+.frame {
+  display: flex;
+  position: relative;
+  top: 210px;
+}
+*/
+/*
+.text-div {
+position: absolute;
+left: 570px;
+top: 260px;
+}
+
+*/
+/*
+.login-button {
+  position: relative;
+  left: 952px;
+  bottom: 487px;
+  font-family: sans-serif;
+  background-color: #517799;
+  color: white;
+  background: linear-gradient(to bottom, #5882a7 10%,  #3c77aa 25%);
+  border: 0px solid #225783;
+  box-shadow: transparent;
+  padding: 10px 30px 10px 10px; 
+}
+.login-text {
+  position: relative;
+  bottom: 6px;
+  left: 8px;
+  padding: 4px;
+  width: 20px;
+  height: 20px;
+}
+*/
